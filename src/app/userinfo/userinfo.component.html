@@ -1,0 +1,45 @@
+<div>
+    <p class="userInfo">User Information</p>
+<table id="users">
+    <th>    
+        <tr>
+            <td>
+                <input type="checkbox" (change)="selectAllusers($event)" name="toggleAllUsers">
+            </td>
+            <td >Name</td>
+            <td >Account Number</td>
+            <td >Country</td>    
+            <td >Date Joined</td>
+        </tr>
+
+        </th>
+        <tbody>
+    <tr *ngFor = "let user of pagedData" style="height: 30px;">
+        <td><input type="checkbox" name="userInfo" (change)="selectedUser($event, false, false)" [checked]="user.isSelected?user.isSelected:false"></td>
+        <td style="padding-left: 3px;" >{{user.name}}</td>
+        <td style="padding-left: 3px;">{{user.accountNumber}}</td>
+        <td style="padding-left: 3px;">{{user.country}}</td>
+        <td style="padding-left: 3px;">{{user.dateJoined}}</td>
+    </tr>
+</tbody>
+</table>
+<div class="paginator">
+    <span>Rows Per Page: </span>
+    <select (change)="rowsPerPageChanged($event)">
+        <option *ngFor = "let rows of rowsPerPage">
+            {{rows}}
+        </option>
+        <!-- <option>5</option>
+        <option>10</option>
+        <option>15</option>
+        <option>20</option>
+        <option>25</option> -->
+    </select>
+    <span> {{pageStartIndex + 1}} - {{pageEndIndex>userDetails?.length ? userDetails.length : pageEndIndex}} of {{userDetails?.length}}</span>
+    &nbsp;&nbsp;&nbsp;
+    <input type="button" value="<" [disabled]="pageStartIndex===0" (click)="previousPagedData()">
+    <!-- <button type="button" [disable]="pageStartIndex===0" value="<"><</button> -->
+    &nbsp;&nbsp;&nbsp;
+    <button type="button" (click)="nextPagedData()" [disabled]="pageEndIndex>=userDetails?.length">></button>
+</div>
+</div>

@@ -1,0 +1,16 @@
+[
+    {"id":1,"name": "John Lennon", "accountNumber" : "555-1234", "country": "England", "dateJoined": "21 Feb 2018", "email": "lennon@test.com", "address": "1 OCEAN DRIVE USA", "phone": "1800 123-1234", "favouriteBrand": "The Rolling Stones"},
+    {"id":2,"name": "Paul McCartney", "accountNumber" : "555-4566", "country": "Ireland", "dateJoined": "20 Feb 2018", "email": "paulMcCartney@test.com", "address": "1 SEA BREEZE USA", "phone": "1800 456-1800", "favouriteBrand": "The Moving Stones"},
+    {"id":3,"name": "Ringo Starr", "accountNumber" : "555-7567", "country": "Scotland", "dateJoined": "17 Jan 2018", "email": "ringo.star@test.com", "address": "NC USA", "phone": "1800 456-1345", "favouriteBrand": "The Galaxy"},
+    {"id":4,"name": "George Harisson", "accountNumber" : "555-9987", "country": "Wales", "dateJoined": "16 Jan 2018", "email": "harrisson@test.com", "address": "Orlando USA", "phone": "1800 456-4353", "favouriteBrand": "McKay"},
+    {"id":5,"name": "Robert Plant", "accountNumber" : "1423-3455", "country": "France", "dateJoined": "16 Feb 2018", "email": "robert@test.com", "address": "Pittsburgh GERMANY", "phone": "1800 564-2534", "favouriteBrand": "Test Stones"},
+    {"id":6,"name": "Jimmy Page", "accountNumber" : "565-3454", "country": "Canada", "dateJoined": "21 Mar 2018", "email": "jimmy_page@test.com", "address": "ABC Way FINLAND", "phone": "1800 432-2323", "favouriteBrand": "Milkyway"},
+    {"id":7,"name": "Jim Morrison", "accountNumber" : "1235-6767", "country": "Scotland", "dateJoined": "12 Oct 2018", "email": "morrison@test.com", "address": "Milky Street Ireland", "phone": "1800 765-2345", "favouriteBrand": "Thunderbolt"},
+    {"id":8,"name": "Ray Manzerek", "accountNumber" : "1235-5656", "country": "Germany", "dateJoined": "24 Nov 2021", "email": "manzarek@test.com", "address": "Moving Way London", "phone": "1800 234-0886", "favouriteBrand": "Royal Landing"},
+    {"id":9,"name": "Robby Kreiger", "accountNumber" : "2345-1245", "country": "Switzerland", "dateJoined": "01 Jan 2020", "email": "kriesger@test.com", "address": "CH1 USA", "phone": "1800 898-2343", "favouriteBrand": "Group Test"},
+    {"id":10,"name": "John Denismore", "accountNumber" : "8779-1245", "country": "England", "dateJoined": "12 Sep 2018", "email": "denismore@test.com", "address": "ATLANTA USA", "phone": "1800 234-2343", "favouriteBrand": "The Moon Walk"},
+    {"id":11,"name": "Ray Manzerek", "accountNumber" : "1235-5656", "country": "Germany", "dateJoined": "24 Nov 2021", "email": "manzarek@test.com", "address": "Moving Way London", "phone": "1800 234-0886", "favouriteBrand": "Royal Landing"},
+    {"id":12,"name": "Robby Kreiger", "accountNumber" : "2345-1245", "country": "Switzerland", "dateJoined": "01 Jan 2020", "email": "kriesger@test.com", "address": "CH1 USA", "phone": "1800 898-2343", "favouriteBrand": "Group Test"}
+    
+    
+]

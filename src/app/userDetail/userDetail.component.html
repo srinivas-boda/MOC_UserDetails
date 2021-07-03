@@ -1,0 +1,19 @@
+<div>
+    <ul>
+        <li *ngFor ="let user of userDetailsList">
+            <div id="userName">{{user.name}}</div>
+            <div>
+                Email Address:<span>{{user.email}}</span>
+            </div>
+            <div>
+                Postal Address:<span>{{user.address}}</span>
+            </div>
+            <div>
+                Phone Number:<span>{{user.phone}}</span>
+            </div>
+            <div>
+                Favourite Brand:<span>{{user.favouriteBrand}}</span>
+            </div>
+        </li>
+    </ul>
+</div>
